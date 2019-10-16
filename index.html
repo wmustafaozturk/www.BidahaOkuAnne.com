@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bidaha Oku Anne</title>
+    <meta name="description" content="">
+   
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+        
+ 
+
+
+
+      <style type="text/css">
+          .resim_div {
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+          }
+
+          .MOBILE_RESIMLER {
+              width: 100%;
+              margin: 0;
+              padding: 0;
+          }
+
+          
+          @media screen and (max-width:370px) {
+
+              #div1 {
+               display:none;
+              }
+              #div2 {
+                  display: inline-block;
+              }
+          }
+
+
+          @media screen and (min-width:500px) {
+
+              #div2 {
+                  display: none;
+              }
+
+              #div1 {
+                  display: inline-block;
+              }
+          }
+
+         
+      </style>
+  </head>
+  <body>
+   
+     
+        <div class="resim_div" id="div1" ><img src="img/pexels-photo-40120.jpg"  width="100%" height="100%" /></div>
+          <div class="MOBILE_RESIMLER" id="div2" ><img src="img/image_mobile.jpg"  /></div>
+    
+      <!--<div id="container">
+          <img src='img/pexels-photo-40120.jpg' class="desktop-visible" />
+      </div>-->
+    <!-- Javascript files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  
+    <script src="js/jquery.cookie.js"> </script>
+    <script src="js/front.js"></script>
+   
+  </body>
+</html>
